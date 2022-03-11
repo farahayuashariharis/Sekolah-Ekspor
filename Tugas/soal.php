@@ -3,18 +3,18 @@ class User
 {
     public $name;
     public $username;
-    protected $birthdate = '10 Juni 1999';
-    private $address = 'Bandung';
+    protected $birthdate = '02 Oktober 2001';
+    private $address = 'makassar';
     protected $gender = 'Male';
 
     public function showSalam(){
-        echo "Halo, nama saya $this->name <br/>";
+        echo "Hai, nama saya $this->name <br/>";
     }
 }
 
 class Bio extends User
 {
-    public $birthdate = '10 Januari 2010';
+    public $birthdate = '02 Oktober 2001';
 
     public function showBio(){
         echo "Username : $this->username <br/>";
